@@ -1,0 +1,18 @@
+# Python / venv
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Secrets - never commit
+.env
+
+# Execution log (regenerated every run; reports/screenshots are intentionally
+# tracked below as submission evidence, see README "Reports & Screenshots")
+reports/execution.log
